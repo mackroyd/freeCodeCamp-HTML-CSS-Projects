@@ -1,0 +1,110 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  @media (prefers-reduced-motion: no-preference) {
+    * {
+      scroll-behavior: smooth;
+    }
+  }
+  
+  body {
+    background: #F2D6DB;
+    color: #800020;
+    font-family: 'Cormorant Garamond', serif;
+    text-align: center;
+    display: inline-block;
+    padding-bottom: 60px; /* Make space so text isn't hidden behind fixed link */
+  }
+  
+  #title {
+    color: #D4AF37;
+    padding: 20px 0;
+    font-size: 2em;
+    display: inline-block;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.3); /* Subtle shadow for contrast */
+  }
+  
+  #img-div {
+    margin: 20px 0;
+  }
+  
+  #img-div figure {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  #image {
+    max-width:100%;
+    height: auto;
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  #img-caption {
+    font-style: italic;
+    font-size: 1em;
+    color: #800020;
+  }
+  
+  #text {
+    padding: 20px;
+    font-size: 1.1em;
+    line-height: 1.5;
+  }
+  
+  #timeline {
+    margin: 30px auto;
+    max-width: 600px;
+    padding: 0 20px;
+    text-align: left;
+  }
+  
+  #timeline h2 {
+    color: #800020;
+    font-size: 1.5em;
+    border-bottom: 2px solid #800020;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+    text-align: center;
+  }
+  
+  #timeline ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  #timeline li {
+    margin-bottom: 12px;
+    line-height: 1.6;
+  }
+  
+  #personal-note {
+    text-align: center;
+    font-style: italic;
+    color: #800020;
+    margin: 20px auto;
+    max-width: 600px;
+    padding: 0 15px;
+  }
+  
+  #tribute-link {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #800020;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  #tribute-link:hover {
+    background-color: #6c001e;
+  }
