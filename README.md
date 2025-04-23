@@ -1,2 +1,2 @@
 # freeCodeCamp-HTML-CSS-Projects
-My fereCodeCamp Projects in HTML/CSS languages
+My freeCodeCamp Projects in HTML/CSS languages
